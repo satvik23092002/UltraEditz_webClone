@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Ultra Edit Text Editor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Baloo Bhai 2", sans-serif;
+        }
+
+        .container {
+            /* border: 2px solid black; */
+            height: 15vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 7px;
+            color: light rgb(86, 76, 76);
+        }
+
+        .item {
+            position: relative;
+            top: 15px;
+            left: 6px;
+            font-size: 15px;
+            height: 5vh;
+            text-align: center;
+            flex-grow: 1;
+
+        }
+
+        .item1 {
+            padding: 0;
+            flex-grow: 16;
+            justify-items: left;
+        }
+
+        .item1 img {
+            position: relative;
+            right: 120px;
+            bottom: 15px;
+        }
+
+        .item8 {
+            flex-grow: 3.3;
+        }
+
+        .text {
+            margin-top: 75px;
+            /* border: 2px solid black; */
+            height: 40vh;
+            width: 100vw;
+            text-align: center
+        }
+
+        .text1 {
+            font-size: 50px;
+
+        }
+
+        .text1 span {
+            color: rgb(65, 62, 62);
+            font-weight: 500;
+            font-stretch: extra-expanded;
+        }
+
+        .text1 span strong {
+            color: black;
+            font-weight: 700
+        }
+
+        .text1 img {
+            margin-left: 10px;
+        }
+
+        .text2 {
+            font-size: 24px;
+            margin-top: 40px;
+            color: rgb(65, 62, 62);
+
+        }
+
+        .text3 {
+            margin-top: 40px;
+            font-size: small;
+            background-color: rgb(72, 187, 207);
+            display: inline-block;
+            padding: 16px;
+            color: white;
+            font-weight: 700;
+            border-radius: 7px;
+        }
+
+        .logo {
+            /* border: 2px solid red; */
+            position: relative;
+        }
+        
+        .logo1 {
+            left: 265px;
+            position: relative;
+            top: 35px;
+            /* margin-bottom: 60px; */
+        }
+
+        .tx1 {
+            margin-top: 8px;
+            margin-left: 280px;
+            font-size: 25px;
+            font-weight: 400;
+            color: rgb(65, 62, 62);
+        }
+
+        .tx2 {
+            font-size: 14px;
+            font-weight: lighter;
+            color: rgb(65, 62, 62);
+        }
+
+        .containers {
+            background-color: rgb(242, 253, 254);
+            height: 21vh;
+            width: 20.5vw;
+            margin: 7px;
+            position: relative;
+            left: 18vw;
+            top:3vh;
+            text-align: center;
+            padding: 22px;
+            box-sizing: border-box;
+            /* justify-content: center; */
+        }
+    
+        
+        .cont {
+            /* border: 2px solid red; */
+            display: flex;
+            height: 90vh;
+            width: 70vw;
+            /* justify-content: space-between; */
+            flex-wrap: wrap;
+            align-content: center;
+            column-gap: 6px;
+            margin-top: 59px;
+        }
+        .containers h3 small{
+            position: relative;
+            top: 3px;
+            font-size: 12px;
+            color: rgb(65, 62, 62);
+        }
+        .containers span{
+            position: relative;
+            top: 30px;
+            font-size: 12px;
+            /* margin:10px; */
+        /* color: white; */
+        }
+        
+        .black{
+            background-color: rgba(0, 0, 0, 0.852);
+            height: 110vh;
+            width: 100vw;
+            margin-top: 16vh;
+            color:white; 
+            display: flex;
+        }
+        .white{
+            background-color: rgba(0, 0, 0, 0);
+            height: 75vh;
+            width: 100vw;
+            margin-top: 16vh;
+            
+        }
+        .card{
+            
+            border: 2px solid red;
+            height: 35vh;
+            width: 20vw;
+            background-color: white;
+            text-align: center;
+        }
+        .black_txt{
+            text-align: center
+        }
+        .card_button{
+            color: aqua
+        }
+        .card h3{
+            color: aqua;
+        }
+        .email{
+            color: black;
+            
+        }
+        
+        
+        .blue a{
+            background-color: rgb(72, 187, 207);
+            position: relative;
+            right: 20px;
+            top: 10px;
+            padding: 10px;
+            color: white;
+            border-radius: 6px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .green a{
+        background-color: rgb(72, 165, 72);
+        position: relative;
+            left: 20px;
+            top: 10px;
+            padding: 10px;
+            color: white;
+            border-radius: 6px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+        </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="item item1"><img height="55px" src="UE-Logo-1.webp" alt=""></div>
+                <div class="item item2">Products</div>
+                <div class="item item3">Pricing</div>
+                <div class="item item4">Resources</div>
+                <div class="item item5">About Us</div>
+                <div class="item item6">Security and Compliance</div>
+                <div class="item item7"> <img src="icon.png" height="23px" alt=""></div>
+                <div class="item item8"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="text">
+            <div class="text1">
+                <span>Download <strong>UltraEdit</strong> for Windows</span>
+                <img src="Reviews.png" alt="">
+            </div>
+
+            <div class="text2">Download and try UltraEdit before you buy it! This download includes the full Windows
+                <br> version of the text editor.</div>
+            <div class="text3">DOWNLOAD MAC OR LINUX VERSION</div>
+        </div>
+
+        <div class="logo">
+            <span class="logo1"><img src="Screenshot 2024-03-18 060433.png" height="65" alt=""></span>
+            <span class="tx1">Download UltraEdit</span>
+            <span class="tx2">v2023.2(released 2023/12/15) | Hotfix</span>
+        </div>
+        <div class="cont">
+
+            <div class="containers container1"> <h3><strong>English</strong></h3><br><span class="blue"> <a href="ue_english.exe">Download 32-bit</a> </span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container2"><h3> <strong>Deutsch</strong>
+                <br> <small>German</small>
+            </h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+            <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+</div>
+            <div class="containers container3"><h3>Italiano
+                <!-- <br> <small>Italian</small> -->
+            </h3>
+                <span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container4"> <h3> Español<br><small>Spanish</small></h3>
+            <span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+            <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+
+            </div>
+            <div class="containers container5"><h3>français <br><small>French</small></h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container6"><h3> Português brasileiro<br><small>Brazilian Portuguese</small></h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container7"><h3>日本 <br><small>Japanese</small></h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container8"><h3>한국어 <br><small>Korean</small></h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container9"><h3>中国 <br><small>Chinese</small></h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+            <div class="containers container10"><h3> 中國<br> <small>Traditional Chinese</small></h3><span class="blue"><a href="ue_english.exe">Download 32-bit</a></span>
+                <span class="green"><a href="ue_english.exe">Download 64-bit</span>
+    </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="black">
+            <div class="black_txt">
+                <h3>Join the UltraEdit newsletter</h3> <br>
+                <span>Sign up for our newsletter and receive emails for the latest <br> news, blogs, and special deals on UltraEdit.</span>
+            </div>
+            <div class="card">
+                <h3>
+                    Subscribe to our emails
+                   </h3>
+                   <form>
+                    <div class="email"><label for="tnp-1">Enter email address</label>
+                    <input type="email"  id="tnp-1" ></div>
+                    <div class="card_button" style="text-align: left"><input class="tnp-submit" type="submit" value="Sign Up" style="">
+                    </div>
+                    </form>
+            </div>
+        </div>
+        <div class="white"></div>
+    </footer>
+
+</body>
+
+</html>
