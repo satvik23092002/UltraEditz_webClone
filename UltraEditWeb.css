@@ -1,219 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
 
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: "Baloo Bhai 2", sans-serif;
-        }
+.container {
+    /* border: 2px solid black; */
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1px;
+    color: light rgb(86, 76, 76);
+}
 
-        .container {
-            /* border: 2px solid black; */
-            height: 15vh;
-            width: 100vw;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            gap: 7px;
-            color: light rgb(86, 76, 76);
-        }
+.item {
+    position: relative;
+    top: 15px;
+    left: 6px;
+    font-size: 15px;
+    height: 5vh;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 
-        .item {
-            position: relative;
-            top: 15px;
-            left: 6px;
-            font-size: 15px;
-            height: 5vh;
-            text-align: center;
-            flex-grow: 1;
+}
 
-        }
+.item1 {
+    padding: 0;
+    flex-grow: 16;
+    justify-items: left;
+}
 
-        .item1 {
-            padding: 0;
-            flex-grow: 16;
-            justify-items: left;
-        }
+.item1 img {
+    position: relative;
+    right: -160px;
+    bottom: 5px;
+}
 
-        .item1 img {
-            position: relative;
-            right: 120px;
-            bottom: 15px;
-        }
+.item8 {
+    flex-grow: 3.3;
+}
 
-        .item8 {
-            flex-grow: 3.3;
-        }
+.text {
+    margin-top: 75px;
+    /* border: 2px solid black; */
+    height: 40vh;
+    width: 100vw;
+    text-align: center
+}
 
-        .text {
-            margin-top: 75px;
-            /* border: 2px solid black; */
-            height: 40vh;
-            width: 100vw;
-            text-align: center
-        }
+.text1 {
+    font-size: 50px;
 
-        .text1 {
-            font-size: 50px;
+}
 
-        }
+.text1 span {
+    color: rgb(65, 62, 62);
+    font-weight: 500;
+    font-stretch: extra-expanded;
+}
 
-        .text1 span {
-            color: rgb(65, 62, 62);
-            font-weight: 500;
-            font-stretch: extra-expanded;
-        }
+.text1 span strong {
+    color: black;
+    font-weight: 700
+}
 
-        .text1 span strong {
-            color: black;
-            font-weight: 700
-        }
+.text1 img {
+    margin-left: 10px;
+}
 
-        .text1 img {
-            margin-left: 10px;
-        }
+.text2 {
+    font-size: 24px;
+    margin-top: 40px;
+    color: rgb(65, 62, 62);
 
-        .text2 {
-            font-size: 24px;
-            margin-top: 40px;
-            color: rgb(65, 62, 62);
+}
 
-        }
+.text3 {
+    margin-top: 40px;
+    font-size: small;
+    background-color: rgba(45, 159, 180, 0.92);
+    display: inline-block;
+    padding: 16px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}
 
-        .text3 {
-            margin-top: 40px;
-            font-size: small;
-            background-color: rgb(72, 187, 207);
-            display: inline-block;
-            padding: 16px;
-            color: white;
-            font-weight: 700;
-            border-radius: 7px;
-        }
+.logo {
+    /* border: 2px solid red; */
+    position: relative;
+}
 
-        .logo {
-            /* border: 2px solid red; */
-            position: relative;
-        }
-        
-        .logo1 {
-            left: 265px;
-            position: relative;
-            top: 35px;
-            /* margin-bottom: 60px; */
-        }
+.logo1 {
+    left: 265px;
+    position: relative;
+    top: 35px;
+    /* margin-bottom: 60px; */
+}
 
-        .tx1 {
-            margin-top: 8px;
-            margin-left: 280px;
-            font-size: 25px;
-            font-weight: 400;
-            color: rgb(65, 62, 62);
-        }
+.tx1 {
+    margin-top: 8px;
+    margin-left: 280px;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(65, 62, 62);
+}
 
-        .tx2 {
-            font-size: 14px;
-            font-weight: lighter;
-            color: rgb(65, 62, 62);
-        }
+.tx2 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(65, 62, 62);
+}
 
-        .containers {
-            background-color: rgb(242, 253, 254);
-            height: 21vh;
-            width: 20.5vw;
-            margin: 7px;
-            position: relative;
-            left: 18vw;
-            top:3vh;
-            text-align: center;
-            padding: 22px;
-            box-sizing: border-box;
-            /* justify-content: center; */
-        }
-    
-        
-        .cont {
-            /* border: 2px solid red; */
-            display: flex;
-            height: 90vh;
-            width: 70vw;
-            /* justify-content: space-between; */
-            flex-wrap: wrap;
-            align-content: center;
-            column-gap: 6px;
-            margin-top: 59px;
-        }
-        .containers h3 small{
-            position: relative;
-            top: 3px;
-            font-size: 12px;
-            color: rgb(65, 62, 62);
-        }
-        .containers span{
-            position: relative;
-            top: 30px;
-            font-size: 12px;
-            /* margin:10px; */
-        /* color: white; */
-        }
-        
-        .black{
-            background-color: rgba(0, 0, 0, 0.852);
-            height: 110vh;
-            width: 100vw;
-            margin-top: 16vh;
-            color:white; 
-            display: flex;
-        }
-        .white{
-            background-color: rgba(0, 0, 0, 0);
-            height: 75vh;
-            width: 100vw;
-            margin-top: 16vh;
-            
-        }
-        .card{
-            
-            border: 2px solid red;
-            height: 35vh;
-            width: 20vw;
-            background-color: white;
-            text-align: center;
-        }
-        .black_txt{
-            text-align: center
-        }
-        .card_button{
-            color: aqua
-        }
-        .card h3{
-            color: aqua;
-        }
-        .email{
-            color: black;
-            
-        }
-        
-        
-        .blue a{
-            background-color: rgb(72, 187, 207);
-            position: relative;
-            right: 20px;
-            top: 10px;
-            padding: 10px;
-            color: white;
-            border-radius: 6px;
-            font-weight: 700;
-            text-decoration: none;
-        }
-        .green a{
-        background-color: rgb(72, 165, 72);
-        position: relative;
-            left: 20px;
-            top: 10px;
-            padding: 10px;
-            color: white;
-            border-radius: 6px;
-            font-weight: 700;
-            text-decoration: none;
-        }
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
-  
+.containers {
+    background-color: whitesmoke;
+    height: 20vh;
+    width: 20vw;
+    margin: 7px;
+    position: relative;
+    left: 18vw;
+    top: 3vh;
+    text-align: center;
+    padding: 22px;
+    box-sizing: border-box;
+    /* justify-content: center; */
+}
+
+
+.cont {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 90vh;
+    width: 70vw;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    align-content: center;
+    column-gap: 6px;
+    margin-top: 59px;
+}
+
+.containers h3 small {
+    position: relative;
+    top: 3px;
+    font-size: 12px;
+    color: rgb(65, 62, 62);
+}
+
+.containers span {
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    /* margin:10px; */
+    /* color: white; */
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.852);
+    height: 110vh;
+    width: 100vw;
+    margin-top: 16vh;
+    color: whitesmoke;
+    /* display: flex; */
+}
+
+.white {
+    /* background-color: rgba(0, 0, 0, 0); */
+    padding: 15vh 0px;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 16vh;
+    background-color: whitesmoke;
+margin: 0px;
+}
+
+.card {
+
+    border: 2px solid white;
+    height: 35vh;
+    width: 23vw;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    left: 830px;
+    top: 50px;
+}
+
+.black_txt1 h3 {
+    font-size: 23px;
+}
+
+
+.card h3 {
+    color: rgba(45, 159, 180, 0.92);
+    font-size: 25px;
+    font-weight: 300;
+    margin: 30px 10px;
+}
+
+.email {
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+.card .email_bar {
+    padding: 13px 55px;
+    margin-top: 5px;
+}
+
+.card .button_bar {
+    padding: 13px 102px;
+    margin-top: 10px;
+    background-color: rgba(45, 159, 180, 0.92);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+.blue a {
+    background-color: rgba(45, 159, 180, 0.92);
+    /* position: relative; */
+    /* right: 20px;
+            top: 10px; */
+    padding: 13px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.green a {
+    background-color: rgb(72, 165, 72);
+    /* position: relative; */
+    /* left: 20px;
+            top: 10px; */
+    padding: 13px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.arrow {
+    border: solid rgb(86, 76, 76);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+    bottom: 5px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.corner {
+    height: 8vh;
+    width: 4vw;
+    background-color: rgba(45, 159, 180, 0.92);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.corner img {
+    margin-top: 15px;
+}
+
+.exe {
+    font-size: 25px;
+    margin: 18px 0px;
+}
+
+.black_txt_first {
+    margin: 18px 0px;
+}
+
+.black_txt_second {
+    margin: 18px 0px;
+    display: flex;
+}
+
+.black_txt_right {
+    color: rgba(45, 159, 180, 0.92);
+}
+
+.black_txt_third {
+    margin-top: 18px;
+    display: flex;
+}
+
+.black_txt1 {
+    text-align: center;
+    position: relative;
+    right: 260px;
+    top: 260px;
+}
+
+.black_txt2 {
+    position: relative;
+    left: 280px;
+    top: 160px;
+}
+
+.white li {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    margin: 5px;
+    list-style: none;
+}
+
+.white1 div {
+    margin-bottom: 20px;
+}
+
+.white2 div {
+    margin-bottom: 20px;
+}
+
+.white3 div {
+    margin-bottom: 20px;
+}
+.white4 div {
+    margin-bottom: 20px;
+}
+
+.white_li{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.white_email{
+    /* color: black; */
+    padding: 10px 28px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-color: whitesmoke;
+}
+.white_button{
+    margin-top: 5px;
+    padding: 11px 72px;
+    border-radius: 10px;
+    background-color: rgba(45, 159, 180, 0.92);
+    color: white;
+    border-style: none;
+    font-weight: 700;
+}
+
+.white_lower{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.white_logo img{
+    height: 90px;
+    margin-left: 30px;
+}
+.white_hor img{
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.cookie_settings{
+    height: 3vh;
+    width: 8vw;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-color:  rgba(0, 0, 0, 0.852);
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    position: fixed;
+    left: 10px;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
